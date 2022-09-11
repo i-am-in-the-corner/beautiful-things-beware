@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,10 +8,11 @@
     <title>Document</title>
     <link rel="stylesheet" href="styling/about-this-site.css">
     <link rel="icon" type="image/x-icon" href="images/logo.png">
-    
+
     <!-- link to my favicon image :D -->
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
 </head>
+
 <body>
     <header>
         <img class="logo" src="images/logo.png" alt="">
@@ -18,25 +20,67 @@
     </header>
     <nav>
         <ul>
-            <li class="Homebutton"><a href="index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <li><a href="nerium-oleander.html">Nerium Oleander</a></li>
             <li><a href="lily-of-the-valley.html">Lily of the Valley</a></li>
-            <li><a href="nightshade.html">Nightshade</a></li>
+            <li><a href="belladonna.html">Belladonna</a></li>
             <li><a href="aconitum.html">Aconitum</a></li>
             <li><a href="faq.html">FAQ</a></li>
-            <li><a href="about-this-site.html">About This Site</a></li>
+            <li class="currentopen"><a href="about-this-site.html">About This Site</a></li>
         </ul>
     </nav>
     <main>
         <h2>About This Site</h2>
-        <div class="description">This site is about various different poisonous flowering plants.</div>
-        <div>For further information, please visit these sites!</div>
-      
-       <div class="layer1">Process
-          <div class="layer2">level2
-          </div>
-       </div>
-   
+        <div class="description">This site is about 4 different poisonous flowering plants:</div>
+        <ul class="contentflowers">
+            <li>nerium oleander</li>
+            <li>lily of the valley</li>
+            <li>belladonna</li>
+            <li>aconitum</li>
+        </ul>
+        <p>Information in this website include appearance, toxicity and a little more.</p>
+        <div>About the Website Making</div>
+
+        <div class="wireframe">Wire frames
+            <div class="images"> <img class="homepg" src="images/home page wireframe.PNG" alt="">
+            </div>
+            <div class="images"> <img class="homepg" src="images/others.PNG" alt="">
+            </div>
+        </div>
+
+        <p>I've commented in the external CSS files to keep everything organized and easier to locate lines of code,
+            though I am not sure if they are considered "well-commented".</p>
+        <p>There are flexboxes throughout the website, in the attempt to make the website as responsive as possible.</p>
+        <p>And although I did base portions of the codes on previous lessons, I have played around with the coding a
+            little.</p>
+        <p>The overall appearance of the website is consistent, with the colour scheme remaining the same on each page.
+            The way which each individual page is formatted is also the same.</p>
+        <p>Lines of code which I have copied directly from another site are those for the table in the <a
+                href="faq.html">FAQ</a> page (from <a
+                href="https://www.w3schools.com/html/html_tables.asp">https://www.w3schools.com/html/html_tables.asp</a>).
+            Any other copied lines of code would be from previous websites the class have coded in lessons.</p>
+        <p>The image used for the logo was taken from this site : <a
+                href="https://www.tenstickers-indonesia.com/stickers/rose-skull-sword-flower-wall-sticker-A25012">https://www.tenstickers-indonesia.com/stickers/rose-skull-sword-flower-wall-sticker-A25012</a>,
+            and it is also used for the favicon image.</p>
+
     </main>
+    <footer>
+        <div class="listContainer">
+            <ul class="uls">
+                <div class="ulHeadings">Contact Us</div>
+                <li class="ula">Phone: 44 23 87</li>
+                <li><a class="ula" href="">Email: btb-poison@gamil.com</a></li>
+            </ul class="uls">
+
+            <ul class="uls">
+                <div class="ulHeadings">Poison Information Hotline</div>
+                <li class="ula">Phone: 13 11 26</li>
+                <li><a class="ula"
+                        href="https://www.google.com/maps/place/Westmead+Hospital/@-33.8022114,150.9872182,17z/data=!3m1!4b1!4m5!3m4!1s0x6b12a2effecfd6db:0xe3e2865868646a90!8m2!3d-33.8022159!4d150.9894069">Address:
+                        Westmead NSW 2145</a></li>
+            </ul class="uls">
+        </div>
+    </footer>
 </body>
+
 </html>

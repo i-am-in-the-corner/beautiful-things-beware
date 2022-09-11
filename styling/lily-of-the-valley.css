@@ -15,6 +15,10 @@ body main p{
     color: rgb(1, 126, 112);
 }
 
+body main h3{
+    color: rgb(1, 126, 112);
+}
+
 
 
 /* styling header */
@@ -35,7 +39,7 @@ header h1 {
     color: rgb(120, 3, 42);
 }
 
-header img {
+.logo {
     position: fixed;
     top: 10px;
     left: 40px;
@@ -85,22 +89,20 @@ main{
     margin: 0 auto;
 }
 
+main img{
+    float : right;
+    width : 200px;
+    border-style : solid;
+    border-radius: 20px;
+}
 
-
-/* styling table */
-table, th, td {
-    border:1px solid black;
-    margin-top: 20px;
-    padding: 3px;
-    color: rgb(73, 113, 88);
-  }
-
-table {
-    border-radius: 5px;
+.contentimg:hover {
+    width:300px;
 }
 
 
-  /* styling the footer */
+
+/* styling the footer */
 footer{
     margin: 0%;
 }

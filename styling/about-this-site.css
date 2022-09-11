@@ -1,6 +1,6 @@
 body{
     background-color: rgb(73, 113, 88);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin:0%;
     
 }
@@ -65,7 +65,7 @@ nav a {
     text-decoration: none;
 }
 
-.Homebutton {
+.currentopen {
     background-color: rgb(120, 3, 42);
 }
 
@@ -74,12 +74,18 @@ main{
     padding-top: 230px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-bottom: 10px;
     width: 800px;
     color: rgba(9, 141, 161, 0);
     background-color: rgb(212, 255, 193);
     margin: 0 auto;
 }
-.layer1{
+
+.contentflowers{
+    color: rgb(1, 126, 112);
+}
+
+.wireframe{
     background-color: rgb(243, 255, 194);
     padding: 10px;
     border-style: solid;
@@ -87,7 +93,42 @@ main{
     border-color: rgb(1, 126, 112);
 }
 
-.layer2{
+.images{
     background-color: rgb(206, 246, 195);
     padding: 10px;
+}
+
+.homepg {
+    width: 700px;
+}
+
+main p {
+    color: rgb(1, 126, 112);
+}
+
+
+/* styling the footer */
+footer{
+    margin: 0%;
+}
+.uls{
+    list-style: none;
+    text-decoration: none;
+}
+
+.ula{
+    text-decoration: none;
+    color: rgb(212, 255, 193);
+}
+
+.ulHeadings{
+    color: rgb(212, 255, 193);
+    text-decoration: underline;
+}
+
+.listContainer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(55, 86, 67);
+    border-top: 5px;
 }
